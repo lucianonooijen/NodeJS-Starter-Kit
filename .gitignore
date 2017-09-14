@@ -1,3 +1,6 @@
+# Project specific gitignore #
+node_modules/
+
 # General stuff below #
 # Compiled source #
 *.com
