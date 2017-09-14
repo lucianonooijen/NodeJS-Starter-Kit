@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/lucianonooijen/NodeJS-Starter-Kit#readme",
   "dependencies": {
+    "body-parser": "*",
+    "ejs": "^2.5.7",
     "express": "*",
-    "body-parser": "*"
+    "nodemon": "^1.12.0"
   }
 }
