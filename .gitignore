@@ -1,3 +1,6 @@
+# Project specific stuff below #
+node_modules 
+
 # General stuff below #
 # Compiled source #
 *.com
