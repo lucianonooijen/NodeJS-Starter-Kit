@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-starter-kit",
+  "version": "1.0.0",
+  "description": "Personal NodeJS Starter Kit made by Luciano Nooijen, Nooijen Web Solutions",
+  "main": "app.js",
+  "scripts": {
+    "test": "console.log(\"Yes, it is working\")"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucianonooijen/NodeJS-Starter-Kit.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "Luciano Nooijen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucianonooijen/NodeJS-Starter-Kit/issues"
+  },
+  "homepage": "https://github.com/lucianonooijen/NodeJS-Starter-Kit#readme"
+}
