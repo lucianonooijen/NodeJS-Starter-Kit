@@ -4,6 +4,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
+const expressValidator = require('express-validator');
+const mognojs = require('mongojs');
+
+const db = mongojs();
 const app = express();
 
 // View engine
