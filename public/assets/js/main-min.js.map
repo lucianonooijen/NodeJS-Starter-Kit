@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/js/main.js"],"names":["$","document","ready"],"mappings":"YAAAA,GAAEC,UAAUC,MAAM","file":"main-min.js","sourcesContent":["$(document).ready(function(){\n  // jQuery code goes here\n});\n"]}
