@@ -6,6 +6,10 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const app = express();
 
+// View engine
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
+
 // Body parser middleware
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
@@ -15,7 +19,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Hello World
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  res.render('index', {
+    title: 'Home'
+  });
 })
 
 // Runs the Express server
