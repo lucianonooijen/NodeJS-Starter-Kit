@@ -24,7 +24,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Hello World
 app.get('/', function (req, res) {
   res.render('index', {
-    title: 'Home'
+    title: 'Home',
+    seoDescription: 'SEO Description',
+    seoKeywords: 'SEO Keyword'
   });
 })
 
