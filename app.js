@@ -5,10 +5,11 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 const expressValidator = require('express-validator');
-//const mongojs = require('mongojs');
+const mongoose = require('mongoose');
 
-//const db = mongojs();
 const app = express();
+
+const port = process.env.PORT || 3000;
 
 // View engine
 app.set('view engine', 'ejs');
@@ -21,7 +22,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 // Set static path
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Hello World
+// Get home route
 app.get('/', function (req, res) {
   res.render('index', {
     title: 'Home',
@@ -32,5 +33,5 @@ app.get('/', function (req, res) {
 
 // Runs the Express server
 app.listen(3000, function () {
-  console.log('App listening on port 3000!');
+  console.log(`App listening on port ${port}!`);
 })
