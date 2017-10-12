@@ -2,6 +2,8 @@
 _Made by Luciano Nooijen_
 Version 1.0.0 (still in development)
 
+Status: [![Build Status](https://travis-ci.org/lucianonooijen/NodeJS-Starter-Kit.svg?branch=master)](https://travis-ci.org/lucianonooijen/NodeJS-Starter-Kit)
+
 ## Why this starter kit?
 I created this starter kit for all of my NodeJS projects to save time on setting everything up. Because of this the workflow can be different from what you're used to, for example, I like to use CodeKit for small projects instead of Gulp or similar tools. You can of course change the the complete workflow to suit your needs. This is also the reason why I chose ejs and not pug for example. If you are looking for a custom boiler plate with Angular or React of some sort, of a more complete starter kit, check out [Mega Boiler Plate](http://megaboilerplate.com/), it's great!
 
