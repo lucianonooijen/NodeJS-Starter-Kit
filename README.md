@@ -16,14 +16,6 @@ $ npm install
 $ npm nodemon
 ```
 
-### Dependencies
-* body-parser
-* ejs
-* express
-* express-validator
-* mongoose
-* nodemon
-
 ## Features I am still working on (kind of a to do list for myself too)
 * A form that you can use
 * Better styling, some more elements
@@ -31,9 +23,8 @@ $ npm nodemon
 * True MVC structure, not just the views
 * Maybe a login feature, although I am not sure yet about that
 * Some sort of backend panel would be nice with a couple of options
-* MongoDB/Mongoose integration
+* Mongoose integration
 * I might add a blog function to the starter kit
-* I might add a Gulp file so there is a choice between Gulp and CodeKit
 * Integration of Angular (so it is kind of a MEAN stack starter kit)
 
 ## Contributors
