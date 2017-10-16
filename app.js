@@ -36,6 +36,6 @@ app.get('/', function (req, res) {
 })
 
 // Runs the Express server
-app.listen(3000, function () {
+app.listen(port, function () {
   console.log(`App listening on port ${port}!`);
 })
