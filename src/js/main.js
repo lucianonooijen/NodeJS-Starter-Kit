@@ -1,5 +1,6 @@
-'use strict';
-
 $(document).ready(function(){
-  // jQuery code goes here
+  let workingJS = () => {
+    console.log('Javascript loaded');
+  }
+  workingJS();
 });

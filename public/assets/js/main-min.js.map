@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../src/js/main.js"],"names":["$","document","ready"],"mappings":"AAAA,YAEAA,GAAEC,UAAUC,MAAM","file":"main-min.js","sourcesContent":["'use strict';\n\n$(document).ready(function(){\n  // jQuery code goes here\n});\n"]}
