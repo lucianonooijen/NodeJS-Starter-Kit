@@ -4,7 +4,7 @@
   "description": "Personal NodeJS Starter Kit made by Luciano Nooijen, Nooijen Web Solutions",
   "main": "app.js",
   "scripts": {
-      "start": "node app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -22,10 +22,13 @@
   "homepage": "https://github.com/lucianonooijen/NodeJS-Starter-Kit#readme",
   "dependencies": {
     "body-parser": "*",
-    "ejs": "^2.5.7",
+    "cross-spawn": "^5.1.0",
     "express": "*",
     "express-validator": "^4.1.1",
+    "gulp": "^3.9.1",
+    "hbs": "^4.0.1",
     "mongoose": "^4.12.1",
+    "node-sass": "^4.5.3",
     "nodemon": "^1.12.0"
   }
 }

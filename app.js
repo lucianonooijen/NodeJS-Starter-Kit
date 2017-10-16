@@ -1,19 +1,23 @@
-"use strict";
-
 // Dependencies
-const express = require('express');
 const bodyParser = require('body-parser');
-const path = require('path');
+const exphbs  = require('express-handlebars');
+const express = require('express');
 const expressValidator = require('express-validator');
+const hbs = require('hbs');
 const mongoose = require('mongoose');
+const path = require('path');
 
 const app = express();
 
 const port = process.env.PORT || 3000;
 
 // View engine
-app.set('view engine', 'ejs');
+app.engine('handlebars', exphbs({defaultLayout: 'main'}));
+app.set('view engine', 'handlebars');
 app.set('views', path.join(__dirname, 'views'));
+
+// Register handlebars partials
+hbs.registerPartials(__dirname + '/views/partials');
 
 // Body parser middleware
 app.use(bodyParser.json());
