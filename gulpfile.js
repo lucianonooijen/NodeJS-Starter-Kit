@@ -3,12 +3,17 @@
 // Load dependencies
 const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync').create();
-const cleanCSS = require('gulp-clean-css');
-const eslint = require('gulp-eslint');
 const gulp = require('gulp');
+const babel = require ('gulp-babel');
+const cleanCSS = require('gulp-clean-css');
+const concat = require ('gulp-concat');
+const eslint = require('gulp-eslint');
+const imagemin = require ('gulp-imagemin');
+const plumber = require('gulp-plumber');
 const sass = require('gulp-sass');
 const sourcemaps = require('gulp-sourcemaps');
 const minify = require('gulp-minify');
+const uglify = require('gulp-uglify');
 
 const paths = {
     scripts: './src/js/*.js',
@@ -46,13 +51,11 @@ gulp.task('lint', () => {
 
 gulp.task('scripts', () => {
     return gulp.src(paths.scripts)
-        .pipe(minify({
-            ext:{
-                src:'.js',
-                min:'.min.js'
-            }
-        }))
+        .pipe(plumber())
         .pipe(sourcemaps.init())
+        .pipe(babel({presets: ['es2015']}))
+        .pipe(concat('main.min.js'))
+        .pipe(uglify())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('./public/assets/js'));
 });
@@ -80,7 +83,7 @@ gulp.task('bootstrap', () => {
         .pipe(browserSync.stream());
 });
 
-// Rerun the task when a file changes 
+// Rerun the task when a file changes
 gulp.task('watch', () => {
     gulp.watch(paths.scripts, ['scripts']);
     gulp.watch(paths.sass, ['sass'])
@@ -98,5 +101,5 @@ gulp.task('scripts-script', ['js'], function (done) {
     done();
 });
 
-// The default task (called when you run `gulp` from cli) 
+// The default task (called when you run `gulp` from cli)
 gulp.task('default', [ 'scripts', 'sass', 'bootstrap', 'watch']);
