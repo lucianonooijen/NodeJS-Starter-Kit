@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/lucianonooijen/NodeJS-Starter-Kit#readme",
   "dependencies": {
-    "body-parser": "*",
+    "body-parser": "^1.18.2",
     "cross-spawn": "^5.1.0",
-    "express": "*",
+    "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
     "express-validator": "^4.1.1",
     "hbs": "^4.0.1",
