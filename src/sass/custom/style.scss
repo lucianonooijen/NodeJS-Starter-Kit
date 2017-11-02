@@ -1,0 +1,17 @@
+//@import "reset"; //to reset Bootstrap styling uncomment, comment to use Bootstrap styling
+@import "variables";
+@import "mixins";
+@import "typography";
+@import "buttons";
+@import "layout";
+@import "modules";
+@import "animations";
+
+body {
+  background-color: #ddd;
+}
+
+.mainfooter {
+  padding: 20px 0;
+  background-color: #eee;
+}

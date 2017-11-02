@@ -1,6 +1,6 @@
 $(document).ready(function(){
   let workingJS = () => {
-    console.log('Javascript loaded');
+    console.log('Custom Javascript loaded');
   }
   workingJS();
 });

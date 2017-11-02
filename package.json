@@ -24,6 +24,7 @@
     "body-parser": "*",
     "cross-spawn": "^5.1.0",
     "express": "*",
+    "express-handlebars": "^3.0.0",
     "express-validator": "^4.1.1",
     "hbs": "^4.0.1",
     "mongoose": "^4.12.1",

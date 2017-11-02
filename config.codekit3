@@ -7,12 +7,20 @@
 		"uuidString": "E3D00BB9-B0FC-4A44-A219-D75949B865A9"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26097",
 "files": {
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/.gitignore",
+		"oF": 1
+		},
+	"\/.travis.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.travis.yml",
 		"oF": 1
 		},
 	"\/app.js": {
@@ -25,11 +33,21 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/gulpfile.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/gulpfile-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/LICENSE.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -49,12 +67,6 @@
 		"oAP": "\/build\/node_modules",
 		"oF": 0
 		},
-	"\/npm-debug.log": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/npm-debug.log",
-		"oF": 1
-		},
 	"\/package.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -70,10 +82,10 @@
 		"oF": 0
 		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -96,6 +108,46 @@
 		"oF": 2,
 		"sC": 3,
 		"tS": 1
+		},
+	"\/src\/js\/vendor\/bootstrap.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/public\/assets\/js\/bootstrap.min-min.js",
+		"oF": 3,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/js\/vendor\/jquery-3.2.1.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/assets\/js\/jquery-3.2.1.min-min.js",
+		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/js\/vendor\/popper.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/assets\/js\/popper.min-min.js",
+		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/js\/vendor\/tether.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/assets\/js\/tether.min-min.js",
+		"oF": 2,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/src\/sass\/bootstrap\/_alert.scss": {
 		"aP": 0,
@@ -1189,173 +1241,251 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/sass\/custom\/_0variables.sass": {
+	"\/src\/sass\/custom\/_animations.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
-		"ft": 2,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/sass\/custom\/_0variables.css",
+		"oAP": "\/src\/sass\/custom\/_animations.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/sass\/custom\/_10animations.sass": {
+	"\/src\/sass\/custom\/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
-		"ft": 2,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/sass\/custom\/_10animations.css",
+		"oAP": "\/src\/sass\/custom\/_buttons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/sass\/custom\/_11fixes.sass": {
+	"\/src\/sass\/custom\/_layout.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
-		"ft": 2,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/sass\/custom\/_11fixes.css",
+		"oAP": "\/src\/sass\/custom\/_layout.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/sass\/custom\/_1mixins.sass": {
+	"\/src\/sass\/custom\/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
-		"ft": 2,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/sass\/custom\/_1mixins.css",
+		"oAP": "\/src\/sass\/custom\/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/sass\/custom\/_2typography.sass": {
+	"\/src\/sass\/custom\/_modules.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
-		"ft": 2,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/sass\/custom\/_2typography.css",
+		"oAP": "\/src\/sass\/custom\/_modules.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/sass\/custom\/_3general.sass": {
+	"\/src\/sass\/custom\/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
-		"ft": 2,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/sass\/custom\/_3general.css",
+		"oAP": "\/src\/sass\/custom\/_reset.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/sass\/custom\/_4layouts.sass": {
+	"\/src\/sass\/custom\/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
-		"ft": 2,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/sass\/custom\/_4layouts.css",
+		"oAP": "\/src\/sass\/custom\/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/sass\/custom\/_5extrasmall.sass": {
+	"\/src\/sass\/custom\/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
-		"ft": 2,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/sass\/custom\/_5extrasmall.css",
+		"oAP": "\/src\/sass\/custom\/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/sass\/custom\/_6small.sass": {
+	"\/src\/sass\/custom\/layout\/_desktop.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
-		"ft": 2,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/sass\/custom\/_6small.css",
+		"oAP": "\/src\/sass\/custom\/layout\/_desktop.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/sass\/custom\/_7medium.sass": {
+	"\/src\/sass\/custom\/layout\/_laptop.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
-		"ft": 2,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/sass\/custom\/_7medium.css",
+		"oAP": "\/src\/sass\/custom\/layout\/_laptop.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/sass\/custom\/_8large.sass": {
+	"\/src\/sass\/custom\/layout\/_mobile-xs.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
-		"ft": 2,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/sass\/custom\/_8large.css",
+		"oAP": "\/src\/sass\/custom\/layout\/_mobile-xs.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/sass\/custom\/_9extralarge.sass": {
+	"\/src\/sass\/custom\/layout\/_mobile.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
-		"ft": 2,
+		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/sass\/custom\/_9extralarge.css",
+		"oAP": "\/src\/sass\/custom\/layout\/_mobile.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/sass\/custom\/style.sass": {
-		"aP": 1,
-		"bl": 1,
+	"\/src\/sass\/custom\/layout\/_tablet.scss": {
+		"aP": 0,
+		"bl": 0,
 		"dP": 10,
 		"dS": 0,
-		"ft": 2,
-		"ma": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/sass\/custom\/layout\/_tablet.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/sass\/custom\/modules\/_content-block.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/sass\/custom\/modules\/_content-block.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/sass\/custom\/modules\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/sass\/custom\/modules\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/sass\/custom\/modules\/_forms.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/sass\/custom\/modules\/_forms.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/sass\/custom\/modules\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/sass\/custom\/modules\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/sass\/custom\/modules\/_navigation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/sass\/custom\/modules\/_navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/src\/sass\/custom\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "\/public\/assets\/css\/style.min.css",
+		"oAP": "\/public\/assets\/css\/style.css",
 		"oF": 2,
-		"oS": 3,
+		"oS": 0,
 		"uL": 1
 		},
 	"\/views": {
@@ -1909,6 +2039,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -1973,9 +2107,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -2005,6 +2139,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -2014,14 +2152,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -3125,7 +3255,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -3158,6 +3289,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -3199,7 +3331,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -3231,13 +3364,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -3246,7 +3379,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -3266,7 +3400,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -3294,7 +3429,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
