@@ -16,7 +16,7 @@ This starter kit requires [Node.js](https://nodejs.org/) to run (duh).
 $ npm install
 ```
 ```sh
-$ npm nodemon
+$ nodemon
 ```
 
 ## Useful notes
